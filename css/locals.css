@@ -1,0 +1,16 @@
+header {
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  background-color: var(--pico-background-color);
+}
+
+.header-logo {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#theme-toggle {
+  color: var(--pico-contrast);
+}

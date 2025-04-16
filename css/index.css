@@ -1,0 +1,16 @@
+.hero-content img {
+  /* max-width: 25%; */
+  width: clamp(20%, 30%, 300px);
+  height: auto;
+  border-radius: 50%;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: var(--pico-typography-spacing-vertical);
+}
+
+.hero-content h1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: var(--pico-typography-spacing-vertical);
+}

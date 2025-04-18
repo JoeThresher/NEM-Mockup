@@ -9,6 +9,12 @@ header {
   width: 60px;
   height: auto;
   border-radius: 50%;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.header-logo:hover {
+  filter: drop-shadow(0 0 0.5em var(--pico-color-yellow-100));
 }
 
 #theme-toggle {
